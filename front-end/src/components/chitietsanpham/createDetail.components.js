@@ -31,7 +31,7 @@ export default class Create extends Component {
       ctsp_congsuat, ctsp_khoiluong, ctsp_dacdiem, ctsp_hangsx } = this.state.item
     return (
       <div style={{ marginTop: 10 }}>
-        <h3>Sửa chi tiết sản phẩm nào!</h3>
+        <h3>Thêm chi tiết sản phẩm nào!</h3>
         <form onSubmit={this.onSubmit}>
           <div className="form-group">
             <label>Mã chi tiết sản phẩm: </label>
